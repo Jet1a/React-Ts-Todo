@@ -8,7 +8,7 @@ const App = () => {
     useTodo();
 
   return (
-    <main className="bg-background min-h-screen">
+    <main className="bg-background min-h-screen font-custom ">
       <Navbar />
       <TodoSummary todos={todos} />
       <div className="max-w-lg mx-auto rounded-md p-5">

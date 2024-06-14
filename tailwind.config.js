@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+
 export default {
   content: [
     "./index.html",
@@ -15,6 +17,9 @@ export default {
       checkbox: {
         border: '#FE5733', // Gray-700
         checked: '#48BB78', // Green-500
+      },
+      fontFamily: {
+        custom: ['Poppins','sans-serif'],
       },
     },
 
